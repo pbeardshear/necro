@@ -1,0 +1,9 @@
+{
+	"setup": "",
+	"teardown": "",
+
+	"files": [
+		"beep.js",
+		"server.js"
+	]
+}
