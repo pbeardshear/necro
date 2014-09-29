@@ -9,8 +9,10 @@ var cluster = require('cluster');
 var args = require('minimist')(process.argv.slice(2));
 var config = {};
 
+console.log(process.cwd());
+
 try {
-	config = require(makePath(args.config || 'config.json'));
+	config = require(makePath(args.config || '../config.json'));
 }
 catch (ex) {
 	console.error('Error: no config file loaded.');
@@ -20,7 +22,7 @@ catch (ex) {
 
 // Initialize cluster
 cluster.setupMaster({
-	exec: (args.container || 'container.js')
+	exec: (config.container || '../lib/container.js')
 });
 
 // Pack each file

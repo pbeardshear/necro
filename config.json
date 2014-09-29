@@ -2,8 +2,10 @@
 	"setup": "",
 	"teardown": "",
 
+	"container": "",
+
 	"files": [
-		"./demo/failure.js",
-		"./demo/server.js"
+		"../demo/failure.js",
+		"../demo/server.js"
 	]
 }
