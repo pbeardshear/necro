@@ -1,6 +1,13 @@
 {
-	"name": "",
-	"version": "",
-	"description": "",
-	"bin": ""
+	"name": "necro",
+	"version": "0.0.1",
+	"description": "Runs multiple node files in separate containers which restart automatically",
+	"dependencies": {
+		"minimist": ">=1.1.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pbeardshear/necro.git"
+	},
+	"bin": "./necro.js"
 }
