@@ -3,7 +3,7 @@
 	"teardown": "",
 
 	"files": [
-		"beep.js",
-		"server.js"
+		"./demo/failure.js",
+		"./demo/server.js"
 	]
 }

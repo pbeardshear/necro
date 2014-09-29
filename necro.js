@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * Runs multiple node files in separate containers which restart automatically
  *
